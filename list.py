@@ -23,3 +23,5 @@ course_str = ", ".join(name) #converted in string
 print(course_str)
 new_list = course_str.split(',') #converted in list
 print(new_list)
+
+
