@@ -15,3 +15,9 @@ print(map(cube,l))#returns map object
 print((tuple(map(cube,l))))
 print((list(map(cube,l))))
 print((set(map(cube,l))))
+
+
+
+print(filter(lambda x : x>4 ,l)) #use lambda as instant coffee(instant function)
+print(list(filter(lambda x : x>4,l)))
+print(list(filter(lambda x : x>2,l)))
